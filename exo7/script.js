@@ -5,18 +5,18 @@
 // Affiche ces deux tableaux.
 
 
-const chiffre  = [4, 5, 8, -4, -5, -8];
+const chiffre = [4, 5, 8, -4, -5, -8];
 
 const positifs = [];
-
 const negatif = [];
 
-if(chiffre === positifs){
-    positifs.sort(chiffre)
-} 
-
-if(chiffre === negatif){
-    negatif.sort(chiffre)
+for (let i = 0; i < chiffre.length; i++) {
+    if (chiffre[i] > 0) {  
+        positifs.push(chiffre[i]);
+    } else {  
+        negatif.push(chiffre[i]);
+    }
 }
 
-console.log("Positif: " + positifs, "Négatif: " + negatif);
+console.log("Positif: ", positifs);
+console.log("Négatif: ", negatif);
