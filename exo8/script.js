@@ -4,15 +4,15 @@
 // Parcoure cette liste pour déterminer et afficher le plus grand nombre.
 
 
-const nombre = [1, 2, 3, 4, 5];
-const test = 0
+// const nombre = [1, 2, 3, 4, 5];
 
-// for(let i = 0; i < nombre.length; i++){
- 
-     
+
+// for(let i = 0; i < nombre.length; i ++){
+//     console.log(nombre[i])
+   
 // }
 
 
-if(test< nombre.length){
-    console.log(Math.max(nombre));
-}
+const test = [1, 2, 3, 4, 5];
+
+console.log(Math.max( ...test));
