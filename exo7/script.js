@@ -7,16 +7,16 @@
 
 const chiffre  = [4, 5, 8, -4, -5, -8];
 
-const positifs = [4, 5, 8];
+const positifs = [];
 
-const negatif = [-4, -5, -8];
+const negatif = [];
 
 if(chiffre === positifs){
-    positifs.push(chiffre)
+    positifs.sort(chiffre)
 } 
 
 if(chiffre === negatif){
-    negatif.push(chiffre)
+    negatif.sort(chiffre)
 }
 
 console.log("Positif: " + positifs, "Négatif: " + negatif);
